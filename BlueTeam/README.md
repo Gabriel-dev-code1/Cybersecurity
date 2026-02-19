@@ -6,3 +6,4 @@ for example:
 1. Fortigate (firewall)
 2. wazuh(SIEM)
 3. Sophos(EDR)
+4. Cloud security
