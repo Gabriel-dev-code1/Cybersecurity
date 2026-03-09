@@ -1,21 +1,23 @@
 # Splunk Sysmon Detection Lab
 
-Este projeto demonstra a configuração do Splunk Free com Sysmon para detecção de processos suspeitos.
+This project demonstrates the configuration of Splunk Free with Sysmon for the detection of suspicious processes.
 
-## Tecnologias
+## Technologies
 
 - Splunk Free
 - Sysmon
 - Windows Event Logs
 
-## Detecções criadas
+## Created Detections
 
-- Execução de PowerShell
-- Criação de processos suspeitos
-- Monitoramento de CommandLine
+- PowerShell execution
+- creation of suspicious processes
+- CommandLine monitoration
 
-## Query exemplo
+## Query example
 
 index=sysmon
-| table _time Image User CommandLine ParentImage
+| rex field=_raw "<Data Name=\"Image\">.*\\\\(?<ProcessName>[^\\\\]+\\.exe)</Data>"
+| rex field=_raw "<Data Name=\"User\">(?<User>[^<]+)</Data>"
+| table _time ProcessName User
 | sort -_time
