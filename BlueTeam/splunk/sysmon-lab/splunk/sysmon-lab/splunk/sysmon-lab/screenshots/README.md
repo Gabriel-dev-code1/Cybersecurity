@@ -1,5 +1,5 @@
-## Panel com o script da query, criado para o dashboard ##
+## Panel with the script, created to dashboard ##
 ![Dashboard](screenshots/panel%20para%20dashboard.png)
 
-## Resultado com os processos listados, exibindo image, command, user e data ##
-![Process Logs](screenshots/investigação.jpg)
+## Results with the processes, showing image, command, user and data ##
+![Process Logs](screenshots/investigacao.jpg)
