@@ -10,8 +10,8 @@ The vulnerability allows manipulation of the backend SQL query, enabling access 
 - Retrieve hidden data from the database
 
 🛠️ Tools Used
-Burp Suite (Proxy & Repeater)
-Web Browser (Chrome)
+- Burp Suite (Proxy & Repeater)
+- Web Browser (Chrome)
 
 
 🔍 Steps Performed
