@@ -70,7 +70,7 @@ Burp Suite is effective for testing and exploitation
 ![page with normal items](items-before.png) -- previously displayed items
 
 
-
+![Modifying the request](burp-payload.png)  -- Sql inject
 
 
 ![page after the modification](items.png)  -- showing hidden items
