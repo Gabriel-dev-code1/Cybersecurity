@@ -67,10 +67,13 @@ Burp Suite is effective for testing and exploitation
 
 📸 Screenshots Description
 
-![page with normal items](items.png) -- previously displayed items
+![page with normal items](items-before.png) -- previously displayed items
+
 
 ![Modifying the Request](burp.png) -- SQL payload 
 
-![page after the modification](items-before.png)  -- showing hidden items
 
-![Lab solved](solved.png) -- result 
+![page after the modification](items.png)  -- showing hidden items
+
+
+![Lab solved](solved.png) -- lab solved
