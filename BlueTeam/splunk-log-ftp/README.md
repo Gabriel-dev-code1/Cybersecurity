@@ -25,7 +25,10 @@ sourcetype=ftp.logs
 
 #Evidences#
 
+
+File upload
 ![File upload](source-file.png)
+
 
 
 All events
@@ -33,22 +36,27 @@ All events
 
 
 
+Event count by user
 ![Event count by user](user-count.png)
 
 
 
+Events envolving: action "file uploads
 ![Events envolving: action "file uploads"](upload.png)
 
 
 
+Events envolving: action "login failed
 ![Events envolving: action "login failed"](login-failed.png)
 
 
 
+Events envolving: action "delete"
 ![Events envolving: action "delete"](delete.png)
 
 
 
+Events envolving: action "download"
 ![Events envolving: action "download"](download-success.png)
 
 
