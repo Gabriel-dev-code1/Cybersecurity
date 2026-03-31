@@ -4,7 +4,9 @@
 Perform the ingestion and analysis of FTP logs using Splunk to identify access patterns and possible anomalies.
 
 #Logs#
+
 The file was manually uploaded to Splunk and analyzed via SPL searches. The created file was fictitious, containing users who do not exist and simulating actions such as login and file manipulation.
+
 File information:
 
 2026-03-19 10:15:32 INFO user=user03 action=login status=success ip=192.x.x.x
