@@ -41,12 +41,12 @@ Event count by user
 
 
 
-Events envolving: action "file uploads
+Events envolving: action "file uploads"
 ![Events envolving: action "file uploads"](upload.png)
 
 
 
-Events envolving: action "login failed
+Events envolving: action "login failed"
 ![Events envolving: action "login failed"](login-failed.png)
 
 
@@ -63,5 +63,7 @@ Events envolving: action "download"
 #Conclusion#
 
 The user03 had more events, envolving login success and actions as file download and upload. If these files contained maliciosity, the system/server was compromised. Necessary actions here.
+
 The user02 had just one event, where he tried to delete a file but didn't had success, was denied. Necessary investigate what this file is about.
-The user01 also have one event, where he tried to login but failed. No actions needed here.
+
+The user01 also have one event, where he tried to login but failed. Necessary understand the fail reason.
