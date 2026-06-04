@@ -1,20 +1,26 @@
-📌 Overview
+                                                  📌 Overview
+                                                  
 
 This lab demonstrates the exploitation of a SQL Injection vulnerability to retrieve hidden data from the application.
 
 The vulnerability allows manipulation of the backend SQL query, enabling access to unintended data.
 
-🎯 Objective
+
+
+                                                 🎯 Objective
+                                                 
 - Identify a vulnerable parameter
 - Manipulate the SQL query
 - Retrieve hidden data from the database
+  
 
-🛠️ Tools Used
+                                                🛠️ Tools Used
+  
 - Burp Suite (Proxy & Repeater)
 - Web Browser (Chrome)
 
 
-🔍 Steps Performed
+                                                🔍 Steps Performed
 
 1. Normal Application Behavior
 
@@ -42,7 +48,8 @@ This confirms that the input is not properly sanitized.
 
 The lab environment confirms that the SQL Injection was successfully executed.
 
-⚠️ Vulnerability Explanation
+
+                                                ⚠️ Vulnerability Explanation
 
 SQL Injection occurs when:
 
@@ -54,26 +61,36 @@ Attackers can manipulate queries to:
 - Access unauthorized data
 - Modify or delete database contents
 
-🔒 Mitigation
+                                                    🔒 Mitigation
+  
 Use prepared statements (parameterized queries)
 Implement input validation
 Apply least privilege to database users
 Use ORM frameworks when possible
 
-📚 Key Takeaways
+                                                  📚 Key Takeaways
+                                                  
 Even simple payloads can break query logic
 Input validation is critical for database security
 Burp Suite is effective for testing and exploitation
 
-📸 Screenshots Description
+                                                📸 Screenshots Description
 
-![page with normal items](items-before.png) -- previously displayed items
+                                                
+## previously displayed items
 
-
-![Modifying the request](burp-payload.png)  -- Sql inject
-
-
-![page after the modification](items.png)  -- showing hidden items
+![page with normal items](items-before.png) 
 
 
-![Lab solved](solved.png) -- lab solved
+## Sql inject
+
+![Modifying the request](burp-payload.png)  
+
+
+## showing hidden items
+
+![page after the modification](items.png)  
+
+##  lab solved
+
+![Lab solved](solved.png) 
