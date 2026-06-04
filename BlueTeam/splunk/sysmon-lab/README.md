@@ -1,6 +1,8 @@
                                                      Splunk Sysmon Detection Lab
 
-      This project demonstrates the configuration of Splunk Free with Sysmon for the detection of suspicious processes.
+This project demonstrates the configuration of Splunk Free with Sysmon for the detection of suspicious processes.
+
+      
 
                                                          Technologies
 
