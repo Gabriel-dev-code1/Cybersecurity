@@ -4,7 +4,7 @@
                                                                               
 
 
-                                       Integrar i.a com o wazuh siem, estudando a customização de regras e detecção de eventos
+                                       Integrar i.a com o wazuh siem, estudando a customização de regras e detecção de eventos em um ambiente criado.
                                                           
 #
 
@@ -98,7 +98,7 @@ A regra funcionou, conforme o alerta abaixo que foi exibido na vm wazuh manager,
 
 Pela vm kali, tentamos acessar a maquina ubuntu via ssh, onde erramos a senha 3 vezes propositalmente para gerar novamente o log de brute force
 
-![ssh to ubuntu
+![ssh to ubuntu](ssh-to-ubuntu.png)
 
 - Resultado: o wazuh detectou o acesso ssh, porem, trouxe outra regra relacionada a falha de autenticação. Não é um problema, pois, nossa regra criada foi apenas para detectar
 erros de senha na propria maquina ubuntu, o importante é o recebimento de logs funcionando.
@@ -198,7 +198,7 @@ Apos rodar o assistente, pelo comando:
 
 o resultado foi conforme esperado, o assistente fez uma analise baseada nos ambientes que informamos para ele, e trouxe possiveis superficies de ataque relacionados a acesso ssh.
 
-- imagem do aleta dividido 
+- imagem do alerta dividido 
 
 ![alert1-redteam assistant](redteam_assistent-ai.png)
 
