@@ -1,9 +1,17 @@
-                                                                              Objetivo
 
-                                                           Integrar i.a com o wazuh siem, estudando a customização de regras e detecção de eventos
-                                                           
+                                                                    
+  #                                                                         Objetivo
+                                                                              
 
-                                                                            Tecnologias usadas
+
+                                       Integrar i.a com o wazuh siem, estudando a customização de regras e detecção de eventos
+                                                          
+#
+
+
+  #                                                                       Tecnologias usadas
+
+                                                                        
 
                                                                             - Oracle virtualbox
                                                                             - Kali linux VM
@@ -12,7 +20,7 @@
                                                                             - ollama
                                                                             
 
-                                                                          Conceitos estudados
+#                                                                         Conceitos estudados
 
                                                                           1. LLM security
                                                                           2. MITRE ATTACK
